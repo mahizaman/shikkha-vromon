@@ -3,25 +3,39 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Shikkha Vromon | Student Consultancy</title>
-  <meta name="description" content="Shikkha Vromon - Your trusted partner for study abroad and student consultancy services." />
+  <title>Shikkha Vromon | Study Abroad Consultancy in Bangladesh</title>
+  <meta name="description" content="Shikkha Vromon helps Bangladeshi students study in the USA, UK, Ireland, Australia, Germany, Malta, Canada, Malaysia & Japan. Free counseling, visa & scholarship support." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
   <!-- Navbar -->
   <header class="navbar">
     <div class="container nav-container">
-      <a href="index.html" class="logo">
-  <img src="images/logo.png" alt="Shikkha Vromon" class="logo-img" />
-</a>
+      <a href="index.html" class="logo"><img src="images/logo.png" alt="Shikkha Vromon" class="logo-img" /></a>
       <nav>
         <input type="checkbox" id="nav-toggle" class="nav-toggle" />
         <label for="nav-toggle" class="nav-toggle-label"><span></span></label>
         <ul class="nav-links">
           <li><a href="index.html" class="active">Home</a></li>
+          <li class="dropdown">
+            <a href="#destinations">Destinations ▾</a>
+            <div class="dropdown-menu">
+              <a href="usa.html"><span class="flag">🇺🇸</span> United States</a>
+              <a href="uk.html"><span class="flag">🇬🇧</span> United Kingdom</a>
+              <a href="ireland.html"><span class="flag">🇮🇪</span> Ireland</a>
+              <a href="australia.html"><span class="flag">🇦🇺</span> Australia</a>
+              <a href="germany.html"><span class="flag">🇩🇪</span> Germany</a>
+              <a href="malta.html"><span class="flag">🇲🇹</span> Malta</a>
+              <a href="canada.html"><span class="flag">🇨🇦</span> Canada</a>
+              <a href="malaysia.html"><span class="flag">🇲🇾</span> Malaysia</a>
+              <a href="japan.html"><span class="flag">🇯🇵</span> Japan</a>
+            </div>
+          </li>
           <li><a href="services.html">Services</a></li>
           <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="contact.html" class="nav-cta">Free Consultation</a></li>
         </ul>
       </nav>
     </div>
@@ -30,38 +44,176 @@
   <!-- Hero -->
   <section class="hero">
     <div class="container hero-content">
-      <h1>Your Journey to Global Education Starts Here</h1>
-      <p>Shikkha Vromon guides students toward the right university, country, and career path — every step of the way.</p>
+      <span class="hero-badge">🎓 Trusted by 500+ Students Across Bangladesh</span>
+      <h1>Your Gateway to <span>World-Class Education</span> Abroad</h1>
+      <p>Shikkha Vromon guides Bangladeshi students to top universities in 9 countries — with expert counseling, document support, and an industry-leading visa success rate.</p>
       <div class="hero-buttons">
-        <a href="contact.html" class="btn btn-primary">Free Consultation</a>
-        <a href="services.html" class="btn btn-outline">Our Services</a>
+        <a href="contact.html" class="btn btn-primary">Book Free Consultation →</a>
+        <a href="#destinations" class="btn btn-outline">Explore Destinations</a>
+      </div>
+      <div class="hero-trust">
+        <span>✅ 98% Visa Success Rate</span>
+        <span>🌍 9 Study Destinations</span>
+        <span>🤝 50+ Partner Universities</span>
       </div>
     </div>
   </section>
 
-  <!-- Features -->
-  <section class="features container">
-    <h2 class="section-title">Why Choose Us</h2>
-    <div class="features-grid">
-      <div class="feature-card">
-        <div class="icon">🎓</div>
-        <h3>Expert Guidance</h3>
-        <p>Personalized counseling from experienced education consultants.</p>
+  <!-- Destinations -->
+  <section class="section-pad countries" id="destinations">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag">Study Destinations</span>
+        <h2>Choose Your Dream Destination</h2>
+        <p>We send students to 9 of the world's most sought-after education hubs. Click any country to explore universities, requirements, documents, and timelines.</p>
       </div>
-      <div class="feature-card">
-        <div class="icon">🌍</div>
-        <h3>Global Reach</h3>
-        <p>Partnerships with top universities across the world.</p>
+      <div class="countries-grid">
+
+        <a href="usa.html" class="country-card">
+          <span class="country-flag">🇺🇸</span>
+          <h3>United States</h3>
+          <p class="tagline">World's top-ranked universities & OPT work options</p>
+          <div class="country-meta">
+            <span>💰 <strong>Tuition:</strong> $20,000–$55,000/yr</span>
+            <span>⏱️ <strong>Processing:</strong> 2–4 months</span>
+            <span>📝 <strong>Visa:</strong> F-1 Student Visa</span>
+          </div>
+          <span class="country-link">View Details →</span>
+        </a>
+
+        <a href="uk.html" class="country-card">
+          <span class="country-flag">🇬🇧</span>
+          <h3>United Kingdom</h3>
+          <p class="tagline">1-year master's & 2-year post-study work visa</p>
+          <div class="country-meta">
+            <span>💰 <strong>Tuition:</strong> £12,000–£30,000/yr</span>
+            <span>⏱️ <strong>Processing:</strong> 3–8 weeks</span>
+            <span>📝 <strong>Visa:</strong> Student Route Visa</span>
+          </div>
+          <span class="country-link">View Details →</span>
+        </a>
+
+        <a href="ireland.html" class="country-card">
+          <span class="country-flag">🇮🇪</span>
+          <h3>Ireland</h3>
+          <p class="tagline">English-speaking EU hub with 2-year stay-back</p>
+          <div class="country-meta">
+            <span>💰 <strong>Tuition:</strong> €10,000–€25,000/yr</span>
+            <span>⏱️ <strong>Processing:</strong> 4–8 weeks</span>
+            <span>📝 <strong>Visa:</strong> Stamp 2 Study Visa</span>
+          </div>
+          <span class="country-link">View Details →</span>
+        </a>
+
+        <a href="australia.html" class="country-card">
+          <span class="country-flag">🇦🇺</span>
+          <h3>Australia</h3>
+          <p class="tagline">Globally ranked unis & generous post-study work</p>
+          <div class="country-meta">
+            <span>💰 <strong>Tuition:</strong> AUD 20,000–45,000/yr</span>
+            <span>⏱️ <strong>Processing:</strong> 4–12 weeks</span>
+            <span>📝 <strong>Visa:</strong> Subclass 500</span>
+          </div>
+          <span class="country-link">View Details →</span>
+        </a>
+
+        <a href="germany.html" class="country-card">
+          <span class="country-flag">🇩🇪</span>
+          <h3>Germany</h3>
+          <p class="tagline">Low/no tuition at public universities</p>
+          <div class="country-meta">
+            <span>💰 <strong>Tuition:</strong> €0–€3,500/yr (public)</span>
+            <span>⏱️ <strong>Processing:</strong> 6–12 weeks</span>
+            <span>📝 <strong>Visa:</strong> National (D) Visa</span>
+          </div>
+          <span class="country-link">View Details →</span>
+        </a>
+
+        <a href="malta.html" class="country-card">
+          <span class="country-flag">🇲🇹</span>
+          <h3>Malta</h3>
+          <p class="tagline">Affordable English-speaking EU education</p>
+          <div class="country-meta">
+            <span>💰 <strong>Tuition:</strong> €7,000–€15,000/yr</span>
+            <span>⏱️ <strong>Processing:</strong> 4–8 weeks</span>
+            <span>📝 <strong>Visa:</strong> National Long-Stay Visa</span>
+          </div>
+          <span class="country-link">View Details →</span>
+        </a>
+
+        <a href="canada.html" class="country-card">
+          <span class="country-flag">🇨🇦</span>
+          <h3>Canada</h3>
+          <p class="tagline">PR-friendly pathways & post-grad work permit</p>
+          <div class="country-meta">
+            <span>💰 <strong>Tuition:</strong> CAD 15,000–35,000/yr</span>
+            <span>⏱️ <strong>Processing:</strong> 4–12 weeks</span>
+            <span>📝 <strong>Visa:</strong> Study Permit</span>
+          </div>
+          <span class="country-link">View Details →</span>
+        </a>
+
+        <a href="malaysia.html" class="country-card">
+          <span class="country-flag">🇲🇾</span>
+          <h3>Malaysia</h3>
+          <p class="tagline">Affordable Asian hub & global branch campuses</p>
+          <div class="country-meta">
+            <span>💰 <strong>Tuition:</strong> $3,000–$8,000/yr</span>
+            <span>⏱️ <strong>Processing:</strong> 4–6 weeks</span>
+            <span>📝 <strong>Visa:</strong> Student Pass (EMGS)</span>
+          </div>
+          <span class="country-link">View Details →</span>
+        </a>
+
+        <a href="japan.html" class="country-card">
+          <span class="country-flag">🇯🇵</span>
+          <h3>Japan</h3>
+          <p class="tagline">Cutting-edge tech, research & scholarships</p>
+          <div class="country-meta">
+            <span>💰 <strong>Tuition:</strong> $5,000–$12,000/yr</span>
+            <span>⏱️ <strong>Processing:</strong> 2–3 months</span>
+            <span>📝 <strong>Visa:</strong> Student Visa (COE)</span>
+          </div>
+          <span class="country-link">View Details →</span>
+        </a>
+
       </div>
-      <div class="feature-card">
-        <div class="icon">📝</div>
-        <h3>Visa Support</h3>
-        <p>End-to-end assistance with documents and visa applications.</p>
+    </div>
+  </section>
+
+  <!-- Why Us -->
+  <section class="section-pad">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag">Why Shikkha Vromon</span>
+        <h2>Why Students Trust Us</h2>
+        <p>We don't just process applications — we mentor you through one of the biggest decisions of your life.</p>
       </div>
-      <div class="feature-card">
-        <div class="icon">💰</div>
-        <h3>Scholarships</h3>
-        <p>We help you find and apply for the best scholarships.</p>
+      <div class="features-grid">
+        <div class="feature-card"><div class="icon">🎯</div><h3>Personalized Counseling</h3><p>One-on-one guidance to match you with the right country, university, and course based on your profile and budget.</p></div>
+        <div class="feature-card"><div class="icon">📄</div><h3>Complete Document Support</h3><p>SOPs, recommendation letters, financial documents, and application packages — handled end to end.</p></div>
+        <div class="feature-card"><div class="icon">🛂</div><h3>Visa Expertise</h3><p>98% visa success rate with thorough preparation and realistic mock interviews.</p></div>
+        <div class="feature-card"><div class="icon">💰</div><h3>Scholarship Hunting</h3><p>We actively find and apply for scholarships and tuition waivers to reduce your costs.</p></div>
+        <div class="feature-card"><div class="icon">🏦</div><h3>Loan & Finance Guidance</h3><p>Help with education loans, bank statements, and proof-of-funds documentation.</p></div>
+        <div class="feature-card"><div class="icon">✈️</div><h3>Pre-Departure Support</h3><p>Air ticketing, accommodation, forex, and cultural orientation before you fly.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Process -->
+  <section class="section-pad process">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag" style="color:var(--accent)">How It Works</span>
+        <h2>Your Journey in 5 Simple Steps</h2>
+        <p>A clear, structured path from first consultation to your flight abroad.</p>
+      </div>
+      <div class="steps">
+        <div class="step"><div class="step-num">1</div><h3>Free Consultation</h3><p>We assess your goals, academics, and budget to find the best-fit options.</p></div>
+        <div class="step"><div class="step-num">2</div><h3>University & Course Selection</h3><p>We shortlist universities and programs that maximize admission and scholarship chances.</p></div>
+        <div class="step"><div class="step-num">3</div><h3>Application & Documents</h3><p>We prepare SOPs, references, and submit polished applications on your behalf.</p></div>
+        <div class="step"><div class="step-num">4</div><h3>Visa Processing</h3><p>Offer acceptance, financial docs, visa filing, and interview preparation.</p></div>
+        <div class="step"><div class="step-num">5</div><h3>Fly & Settle</h3><p>Pre-departure briefing, accommodation, and ongoing support after you land.</p></div>
       </div>
     </div>
   </section>
@@ -71,24 +223,69 @@
     <div class="container stats-grid">
       <div class="stat"><h3>500+</h3><p>Students Placed</p></div>
       <div class="stat"><h3>50+</h3><p>Partner Universities</p></div>
-      <div class="stat"><h3>15+</h3><p>Countries</p></div>
-      <div class="stat"><h3>98%</h3><p>Visa Success</p></div>
+      <div class="stat"><h3>9</h3><p>Study Destinations</p></div>
+      <div class="stat"><h3>98%</h3><p>Visa Success Rate</p></div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="section-pad testimonials">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag">Success Stories</span>
+        <h2>What Our Students Say</h2>
+        <p>Real journeys from students we helped place at top universities worldwide.</p>
+      </div>
+      <div class="testi-grid">
+        <div class="testi-card">
+          <div class="testi-stars">★★★★★</div>
+          <p>"Shikkha Vromon made my UK master's dream a reality. From SOP to visa interview prep, they handled everything professionally."</p>
+          <div class="testi-author"><div class="testi-avatar">RA</div><div><h4>Rafiq Ahmed</h4><span>MSc, University of Manchester 🇬🇧</span></div></div>
+        </div>
+        <div class="testi-card">
+          <div class="testi-stars">★★★★★</div>
+          <p>"I got a scholarship in Germany thanks to their guidance. The team knew exactly which public universities to target. Highly recommended!"</p>
+          <div class="testi-author"><div class="testi-avatar">SK</div><div><h4>Sadia Khan</h4><span>MS, TU Munich 🇩🇪</span></div></div>
+        </div>
+        <div class="testi-card">
+          <div class="testi-stars">★★★★★</div>
+          <p>"The visa process for Canada felt overwhelming until I came here. They simplified every step and I got my study permit on the first try."</p>
+          <div class="testi-author"><div class="testi-avatar">TI</div><div><h4>Tanvir Islam</h4><span>PG Diploma, Seneca College 🇨🇦</span></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section-pad">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag">FAQ</span>
+        <h2>Frequently Asked Questions</h2>
+      </div>
+      <div class="faq-wrap">
+        <details class="faq-item"><summary class="faq-q">Do you charge for the initial consultation?</summary><div class="faq-a">No. Your first consultation is completely free. We assess your profile and explain your options with no obligation.</div></details>
+        <details class="faq-item"><summary class="faq-q">Which IELTS/TOEFL score do I need?</summary><div class="faq-a">It varies by country and university — typically IELTS 6.0–7.0 overall. Some countries like Germany and Japan also offer programs in their local language. We guide you on the exact requirement for your chosen program.</div></details>
+        <details class="faq-item"><summary class="faq-q">How much bank balance is required for a student visa?</summary><div class="faq-a">Each country sets its own proof-of-funds requirement covering tuition + living costs (usually 1 year). We provide exact figures and help prepare your financial documents correctly.</div></details>
+        <details class="faq-item"><summary class="faq-q">Can I work while studying abroad?</summary><div class="faq-a">Most of our destinations allow part-time work (typically 20 hours/week during term). Countries like the UK, Canada, Australia, and Ireland also offer post-study work visas.</div></details>
+        <details class="faq-item"><summary class="faq-q">How long does the whole process take?</summary><div class="faq-a">From consultation to departure usually takes 3–8 months depending on the country and intake. We recommend starting at least 6–9 months before your intended intake.</div></details>
+      </div>
     </div>
   </section>
 
   <!-- CTA -->
-  <section class="cta container">
-    <h2>Ready to Begin Your Educational Journey?</h2>
-    <p>Book a free consultation with our experts today.</p>
-    <a href="contact.html" class="btn btn-primary">Get Started</a>
+  <section class="cta-banner">
+    <h2>Ready to Start Your Study Abroad Journey?</h2>
+    <p>Book your free consultation today — no obligations, just expert guidance.</p>
+    <a href="contact.html" class="btn btn-dark">Get Free Consultation →</a>
   </section>
 
   <!-- Footer -->
   <footer class="footer">
     <div class="container footer-grid">
       <div>
-       <img src="images/logo.png" alt="Shikkha Vromon" class="footer-logo" />
-        <p>Empowering students to achieve their global education dreams.</p>
+        <img src="images/logo.png" alt="Shikkha Vromon" class="footer-logo" />
+        <p>Empowering Bangladeshi students to achieve their global education dreams since day one.</p>
       </div>
       <div>
         <h4>Quick Links</h4>
@@ -100,15 +297,29 @@
         </ul>
       </div>
       <div>
+        <h4>Destinations</h4>
+        <ul>
+          <li><a href="usa.html">🇺🇸 USA</a></li>
+          <li><a href="uk.html">🇬🇧 UK</a></li>
+          <li><a href="canada.html">🇨🇦 Canada</a></li>
+          <li><a href="australia.html">🇦🇺 Australia</a></li>
+          <li><a href="germany.html">🇩🇪 Germany</a></li>
+        </ul>
+      </div>
+      <div>
         <h4>Contact</h4>
         <p>📧 info@shikkhavromon.com</p>
         <p>📞 +880 1XXX-XXXXXX</p>
         <p>📍 Dhaka, Bangladesh</p>
+        <p>🕐 Sun–Thu: 10 AM – 6 PM</p>
       </div>
     </div>
     <div class="footer-bottom">
       <p>&copy; 2025 Shikkha Vromon. All rights reserved.</p>
     </div>
   </footer>
+
+  <a href="https://wa.me/8801XXXXXXXXX" class="wa-float" target="_blank" aria-label="WhatsApp">💬</a>
+  <script src="js/main.js"></script>
 </body>
 </html>
