@@ -138,14 +138,7 @@ ul { list-style: none; }
 .footer ul li a:hover { color: var(--accent); }
 .footer-bottom { border-top: 1px solid rgba(255,255,255,0.12); text-align: center; padding: 20px; }
 .footer-bottom p { color: #9197b8; margin: 0; }
-.footer-logo {
-  height: 50px;
-  width: auto;
-  margin-bottom: 15px;
-  background: #ffffff;
-  padding: 8px 14px;
-  border-radius: 8px;
-}
+
 
 
 
