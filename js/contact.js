@@ -22,13 +22,16 @@ form.addEventListener("submit", async (e) => {
 
   // Collect data
   const data = {
-    name: form.name.value.trim(),
-    email: form.email.value.trim(),
-    phone: form.phone.value.trim(),
-    country: form.country.value,
-    message: form.message.value.trim(),
-    createdAt: serverTimestamp()
-  };
+  name: form.name.value.trim(),
+  email: form.email.value.trim(),
+  phone: form.phone.value.trim(),
+  country: form.country.value,
+  level: form.level.value,
+  intake: form.intake.value.trim(),
+  message: form.message.value.trim(),
+  createdAt: serverTimestamp()
+};
+
 
   try {
     await addDoc(collection(db, "contacts"), data);

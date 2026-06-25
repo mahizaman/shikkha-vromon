@@ -4,22 +4,37 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Services | Shikkha Vromon</title>
+  <meta name="description" content="Shikkha Vromon's student consultancy services: counseling, university selection, applications, visa processing, scholarships, and pre-departure support." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
   <header class="navbar">
     <div class="container nav-container">
-      <a href="index.html" class="logo">
-  <img src="images/logo.png" alt="Shikkha Vromon" class="logo-img" />
-</a>
+      <a href="index.html" class="logo"><img src="images/logo.png" alt="Shikkha Vromon" class="logo-img" /></a>
       <nav>
         <input type="checkbox" id="nav-toggle" class="nav-toggle" />
         <label for="nav-toggle" class="nav-toggle-label"><span></span></label>
         <ul class="nav-links">
           <li><a href="index.html">Home</a></li>
+          <li class="dropdown">
+            <a href="index.html#destinations">Destinations ▾</a>
+            <div class="dropdown-menu">
+              <a href="usa.html"><span class="flag">🇺🇸</span> United States</a>
+              <a href="uk.html"><span class="flag">🇬🇧</span> United Kingdom</a>
+              <a href="ireland.html"><span class="flag">🇮🇪</span> Ireland</a>
+              <a href="australia.html"><span class="flag">🇦🇺</span> Australia</a>
+              <a href="germany.html"><span class="flag">🇩🇪</span> Germany</a>
+              <a href="malta.html"><span class="flag">🇲🇹</span> Malta</a>
+              <a href="canada.html"><span class="flag">🇨🇦</span> Canada</a>
+              <a href="malaysia.html"><span class="flag">🇲🇾</span> Malaysia</a>
+              <a href="japan.html"><span class="flag">🇯🇵</span> Japan</a>
+            </div>
+          </li>
           <li><a href="services.html" class="active">Services</a></li>
           <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="contact.html" class="nav-cta">Free Consultation</a></li>
         </ul>
       </nav>
     </div>
@@ -28,76 +43,98 @@
   <section class="page-header">
     <div class="container">
       <h1>Our Services</h1>
-      <p>Comprehensive support for every stage of your study abroad journey.</p>
+      <p>Comprehensive, end-to-end support for every stage of your study abroad journey</p>
+      <div class="breadcrumb"><a href="index.html">Home</a> / Services</div>
     </div>
   </section>
 
-  <section class="features container">
-    <div class="features-grid">
-      <div class="feature-card">
-        <div class="icon">🏫</div>
-        <h3>University Selection</h3>
-        <p>We match you with universities that fit your goals, budget, and academic profile.</p>
-      </div>
-      <div class="feature-card">
-        <div class="icon">📄</div>
-        <h3>Application Assistance</h3>
-        <p>Help with SOPs, recommendation letters, and complete application packages.</p>
-      </div>
-      <div class="feature-card">
-        <div class="icon">🛂</div>
-        <h3>Visa Processing</h3>
-        <p>Step-by-step visa guidance and mock interview preparation.</p>
-      </div>
-      <div class="feature-card">
-        <div class="icon">💰</div>
-        <h3>Scholarship Guidance</h3>
-        <p>Identify and apply for scholarships and financial aid opportunities.</p>
-      </div>
-      <div class="feature-card">
-        <div class="icon">✈️</div>
-        <h3>Pre-Departure Briefing</h3>
-        <p>Travel, accommodation, and cultural orientation before you fly.</p>
-      </div>
-      <div class="feature-card">
-        <div class="icon">📚</div>
-        <h3>Test Preparation</h3>
-        <p>IELTS, TOEFL, GRE, and SAT coaching from expert tutors.</p>
+  <section class="section-pad">
+    <div class="container">
+      <div class="services-grid">
+
+        <div class="service-card">
+          <div class="icon">🎯</div>
+          <h3>Career & Course Counseling</h3>
+          <p>Personalized guidance to choose the right country, university, and program based on your goals and profile.</p>
+          <ul><li>Profile evaluation</li><li>Country & course matching</li><li>Career-path planning</li></ul>
+        </div>
+
+        <div class="service-card">
+          <div class="icon">🏫</div>
+          <h3>University Selection & Admission</h3>
+          <p>We shortlist the best-fit universities to maximize your admission and scholarship chances.</p>
+          <ul><li>University shortlisting</li><li>Admission strategy</li><li>Application submission</li></ul>
+        </div>
+
+        <div class="service-card">
+          <div class="icon">📄</div>
+          <h3>Documentation & SOP Support</h3>
+          <p>Expert help crafting compelling SOPs, recommendation letters, and complete application packages.</p>
+          <ul><li>SOP & personal essays</li><li>Recommendation letters</li><li>CV & document review</li></ul>
+        </div>
+
+        <div class="service-card">
+          <div class="icon">🛂</div>
+          <h3>Visa Processing</h3>
+          <p>Complete visa guidance with a 98% success rate, including realistic mock interviews.</p>
+          <ul><li>Visa file preparation</li><li>Financial documentation</li><li>Mock interview practice</li></ul>
+        </div>
+
+        <div class="service-card">
+          <div class="icon">💰</div>
+          <h3>Scholarship Guidance</h3>
+          <p>We identify and help you apply for scholarships, grants, and tuition waivers to reduce your costs.</p>
+          <ul><li>Scholarship search</li><li>Eligibility assessment</li><li>Application support</li></ul>
+        </div>
+
+        <div class="service-card">
+          <div class="icon">📚</div>
+          <h3>Test Preparation</h3>
+          <p>Coaching and resources for IELTS, TOEFL, PTE, GRE, GMAT, SAT, and language tests.</p>
+          <ul><li>IELTS / TOEFL / PTE</li><li>GRE / GMAT / SAT</li><li>German & Japanese language</li></ul>
+        </div>
+
+        <div class="service-card">
+          <div class="icon">🏦</div>
+          <h3>Finance & Loan Guidance</h3>
+          <p>Support with education loans, bank statements, blocked accounts, GIC, and proof of funds.</p>
+          <ul><li>Education loan guidance</li><li>Blocked account / GIC setup</li><li>Proof-of-funds preparation</li></ul>
+        </div>
+
+        <div class="service-card">
+          <div class="icon">✈️</div>
+          <h3>Pre-Departure Support</h3>
+          <p>Everything you need before you fly — and continued support after you land.</p>
+          <ul><li>Air ticketing & forex</li><li>Accommodation guidance</li><li>Cultural orientation</li></ul>
+        </div>
+
+        <div class="service-card">
+          <div class="icon">🤝</div>
+          <h3>Post-Arrival Assistance</h3>
+          <p>We stay with you after arrival to help you settle into your new life abroad.</p>
+          <ul><li>Airport pickup guidance</li><li>Bank & SIM setup help</li><li>Ongoing student support</li></ul>
+        </div>
+
       </div>
     </div>
   </section>
 
-  <section class="cta container">
+  <section class="cta-banner">
     <h2>Not Sure Which Service You Need?</h2>
-    <p>Talk to our counselors for a personalized plan.</p>
-    <a href="contact.html" class="btn btn-primary">Contact Us</a>
+    <p>Talk to our expert counselors and get a personalized plan — your first consultation is free.</p>
+    <a href="contact.html" class="btn btn-dark">Book Free Consultation →</a>
   </section>
 
   <footer class="footer">
     <div class="container footer-grid">
-      <div>
-       <img src="images/logo.png" alt="Shikkha Vromon" class="footer-logo" />
-        <p>Empowering students to achieve their global education dreams.</p>
-      </div>
-      <div>
-        <h4>Quick Links</h4>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </div>
-      <div>
-        <h4>Contact</h4>
-        <p>📧 info@shikkhavromon.com</p>
-        <p>📞 +880 1XXX-XXXXXX</p>
-        <p>📍 Dhaka, Bangladesh</p>
-      </div>
+      <div><img src="images/logo.png" alt="Shikkha Vromon" class="footer-logo" /><p>Empowering Bangladeshi students to achieve their global education dreams.</p></div>
+      <div><h4>Quick Links</h4><ul><li><a href="index.html">Home</a></li><li><a href="services.html">Services</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+      <div><h4>Destinations</h4><ul><li><a href="usa.html">🇺🇸 USA</a></li><li><a href="uk.html">🇬🇧 UK</a></li><li><a href="canada.html">🇨🇦 Canada</a></li><li><a href="australia.html">🇦🇺 Australia</a></li><li><a href="germany.html">🇩🇪 Germany</a></li></ul></div>
+      <div><h4>Contact</h4><p>📧 info@shikkhavromon.com</p><p>📞 +880 1XXX-XXXXXX</p><p>📍 Dhaka, Bangladesh</p></div>
     </div>
-    <div class="footer-bottom">
-      <p>&copy; 2025 Shikkha Vromon. All rights reserved.</p>
-    </div>
+    <div class="footer-bottom"><p>&copy; 2025 Shikkha Vromon. All rights reserved.</p></div>
   </footer>
+  <a href="https://wa.me/8801XXXXXXXXX" class="wa-float" target="_blank" aria-label="WhatsApp">💬</a>
+  <script src="js/main.js"></script>
 </body>
 </html>

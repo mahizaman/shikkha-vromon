@@ -4,22 +4,37 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Contact | Shikkha Vromon</title>
+  <meta name="description" content="Contact Shikkha Vromon for a free study abroad consultation. Get expert guidance on universities, visas, and scholarships." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
   <header class="navbar">
     <div class="container nav-container">
-     <a href="index.html" class="logo">
-  <img src="images/logo.png" alt="Shikkha Vromon" class="logo-img" />
-</a>
+      <a href="index.html" class="logo"><img src="images/logo.png" alt="Shikkha Vromon" class="logo-img" /></a>
       <nav>
         <input type="checkbox" id="nav-toggle" class="nav-toggle" />
         <label for="nav-toggle" class="nav-toggle-label"><span></span></label>
         <ul class="nav-links">
           <li><a href="index.html">Home</a></li>
+          <li class="dropdown">
+            <a href="index.html#destinations">Destinations ▾</a>
+            <div class="dropdown-menu">
+              <a href="usa.html"><span class="flag">🇺🇸</span> United States</a>
+              <a href="uk.html"><span class="flag">🇬🇧</span> United Kingdom</a>
+              <a href="ireland.html"><span class="flag">🇮🇪</span> Ireland</a>
+              <a href="australia.html"><span class="flag">🇦🇺</span> Australia</a>
+              <a href="germany.html"><span class="flag">🇩🇪</span> Germany</a>
+              <a href="malta.html"><span class="flag">🇲🇹</span> Malta</a>
+              <a href="canada.html"><span class="flag">🇨🇦</span> Canada</a>
+              <a href="malaysia.html"><span class="flag">🇲🇾</span> Malaysia</a>
+              <a href="japan.html"><span class="flag">🇯🇵</span> Japan</a>
+            </div>
+          </li>
           <li><a href="services.html">Services</a></li>
           <li><a href="about.html">About</a></li>
-          <li><a href="contact.html" class="active">Contact</a></li>
+          <li><a href="contact.html" class="nav-cta active">Free Consultation</a></li>
         </ul>
       </nav>
     </div>
@@ -27,83 +42,95 @@
 
   <section class="page-header">
     <div class="container">
-      <h1>Contact Us</h1>
-      <p>Fill the form below and our team will reach out to you soon.</p>
+      <h1>Get in Touch</h1>
+      <p>Book your free consultation — our team will reach out to you soon</p>
+      <div class="breadcrumb"><a href="index.html">Home</a> / Contact</div>
     </div>
   </section>
 
-  <section class="contact-section container">
-    <form id="contactForm" class="contact-form">
-      <div class="form-group">
-        <label for="name">Full Name *</label>
-        <input type="text" id="name" name="name" required />
-      </div>
-      <div class="form-group">
-        <label for="email">Email *</label>
-        <input type="email" id="email" name="email" required />
-      </div>
-      <div class="form-group">
-        <label for="phone">Phone</label>
-        <input type="tel" id="phone" name="phone" />
-      </div>
-      <div class="form-group">
-        <label for="country">Preferred Study Destination</label>
-        <select id="country" name="country">
-          <option value="">Select a country</option>
-          <option>USA</option>
-          <option>UK</option>
-          <option>Canada</option>
-          <option>Australia</option>
-          <option>Germany</option>
-          <option>Other</option>
-        </select>
-      </div>
-      <div class="form-group">
-        <label for="message">Message *</label>
-        <textarea id="message" name="message" rows="5" required></textarea>
-      </div>
-      <button type="submit" class="btn btn-primary" id="submitBtn">Send Message</button>
-      <p id="formStatus" class="form-status"></p>
-    </form>
+  <section class="contact-section">
+    <div class="container" style="display:contents">
+      <form id="contactForm" class="contact-form">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Full Name *</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email *</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="phone">Phone / WhatsApp *</label>
+            <input type="tel" id="phone" name="phone" required />
+          </div>
+          <div class="form-group">
+            <label for="country">Preferred Destination</label>
+            <select id="country" name="country">
+              <option value="">Select a country</option>
+              <option>USA</option>
+              <option>UK</option>
+              <option>Ireland</option>
+              <option>Australia</option>
+              <option>Germany</option>
+              <option>Malta</option>
+              <option>Canada</option>
+              <option>Malaysia</option>
+              <option>Japan</option>
+              <option>Not sure yet</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="level">Study Level</label>
+            <select id="level" name="level">
+              <option value="">Select level</option>
+              <option>Undergraduate (Bachelor's)</option>
+              <option>Postgraduate (Master's)</option>
+              <option>PhD</option>
+              <option>Diploma / Foundation</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="intake">Intended Intake</label>
+            <input type="text" id="intake" name="intake" placeholder="e.g. Fall 2025" />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="message">Your Message *</label>
+          <textarea id="message" name="message" rows="5" required placeholder="Tell us about your academic background and goals..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" id="submitBtn">Send Message →</button>
+        <p id="formStatus" class="form-status"></p>
+      </form>
 
-    <div class="contact-info">
-      <h3>Get in Touch</h3>
-      <p>📧 info@shikkhavromon.com</p>
-      <p>📞 +880 1XXX-XXXXXX</p>
-      <p>📍 Dhaka, Bangladesh</p>
-      <p>🕐 Sun - Thu: 10 AM - 6 PM</p>
+      <div class="contact-info">
+        <h3>Contact Information</h3>
+        <div class="ci-item"><span class="ci-icon">📧</span><div><strong>Email</strong><span>info@shikkhavromon.com</span></div></div>
+        <div class="ci-item"><span class="ci-icon">📞</span><div><strong>Phone</strong><span>+880 1XXX-XXXXXX</span></div></div>
+        <div class="ci-item"><span class="ci-icon">💬</span><div><strong>WhatsApp</strong><span>+880 1XXX-XXXXXX</span></div></div>
+        <div class="ci-item"><span class="ci-icon">📍</span><div><strong>Office</strong><span>Dhaka, Bangladesh</span></div></div>
+        <div class="ci-item"><span class="ci-icon">🕐</span><div><strong>Hours</strong><span>Sun–Thu: 10 AM – 6 PM</span></div></div>
+        <a href="https://wa.me/8801XXXXXXXXX" target="_blank" class="btn btn-primary" style="margin-top:10px;width:100%;justify-content:center">💬 Chat on WhatsApp</a>
+      </div>
     </div>
   </section>
 
   <footer class="footer">
     <div class="container footer-grid">
-      <div>
-        <img src="images/logo.png" alt="Shikkha Vromon" class="footer-logo" />
-
-        <p>Empowering students to achieve their global education dreams.</p>
-      </div>
-      <div>
-        <h4>Quick Links</h4>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </div>
-      <div>
-        <h4>Contact</h4>
-        <p>📧 info@shikkhavromon.com</p>
-        <p>📞 +880 1XXX-XXXXXX</p>
-        <p>📍 Dhaka, Bangladesh</p>
-      </div>
+      <div><img src="images/logo.png" alt="Shikkha Vromon" class="footer-logo" /><p>Empowering Bangladeshi students to achieve their global education dreams.</p></div>
+      <div><h4>Quick Links</h4><ul><li><a href="index.html">Home</a></li><li><a href="services.html">Services</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+      <div><h4>Destinations</h4><ul><li><a href="usa.html">🇺🇸 USA</a></li><li><a href="uk.html">🇬🇧 UK</a></li><li><a href="canada.html">🇨🇦 Canada</a></li><li><a href="australia.html">🇦🇺 Australia</a></li><li><a href="germany.html">🇩🇪 Germany</a></li></ul></div>
+      <div><h4>Contact</h4><p>📧 info@shikkhavromon.com</p><p>📞 +880 1XXX-XXXXXX</p><p>📍 Dhaka, Bangladesh</p></div>
     </div>
-    <div class="footer-bottom">
-      <p>&copy; 2025 Shikkha Vromon. All rights reserved.</p>
-    </div>
+    <div class="footer-bottom"><p>&copy; 2025 Shikkha Vromon. All rights reserved.</p></div>
   </footer>
 
-  <!-- Firebase + contact script (module) -->
+  <a href="https://wa.me/8801XXXXXXXXX" class="wa-float" target="_blank" aria-label="WhatsApp">💬</a>
   <script type="module" src="js/contact.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>
